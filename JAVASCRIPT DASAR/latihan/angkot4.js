@@ -1,0 +1,13 @@
+var noAngkot = 1;
+var angkotBeroperasi = 6;
+var jumlAngkot = 10;
+
+for(noAngkot === noAngkot; noAngkot <= jumlAngkot; noAngkot++) {
+	if (noAngkot === 8 || noAngkot === 10 || noAngkot === 5) {
+		console.log('Angkot No. '+ noAngkot + ' sedang lembur');
+	} else if (noAngkot <= angkotBeroperasi) {
+		console.log('Angkot No. '+ noAngkot + ' beroperasi dengan baik');
+	} else if (noAngkot > angkotBeroperasi) {
+		console.log('Angkot No. '+ noAngkot + ' sedang tidak beroperasi');
+	}
+}
